@@ -1,9 +1,7 @@
-name: sf-ai-budget-monitor
+name: sf-ai-credit-watch
 channels:
   - snowflake
 dependencies:
   - python=3.11
   - streamlit=1.50.0
-  - snowflake-snowpark-python
-  - pandas=2.*
-  - plotly=5.*
+

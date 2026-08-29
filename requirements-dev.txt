@@ -1,9 +1,0 @@
-# Local runtime dependencies
-streamlit==1.50.0
-snowflake-snowpark-python==1.54.0
-pandas==2.3.3
-plotly==5.24.1
-
-# Development and test tools
-pytest==8.4.1
-ruff==0.15.5

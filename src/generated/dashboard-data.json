@@ -1,0 +1,145 @@
+{
+  "version": 1,
+  "generatedAt": "2026-08-31T02:30:00.000Z",
+  "components": {
+    "dashboard_shell": {
+      "renderer": "shell",
+      "data": {
+        "brandTitle": "Credit Control",
+        "brandSubtitle": "Snowflake AI observability",
+        "environmentLabel": "LIVE SQL",
+        "accountName": "ACME_PROD / ACCOUNTADMIN",
+        "pageOverline": "AI GOVERNANCE / COMMAND CENTER",
+        "titleLine1": "Every AI credit.",
+        "titleEmphasis": "Clearly accountable.",
+        "lede": "Three numbers and five visual perspectives—maintained entirely through SQL."
+      }
+    },
+    "monitoring_status": {
+      "renderer": "status",
+      "data": { "message": "Monitoring 4 AI services across 38 identities" }
+    },
+    "credits_consumed": {
+      "renderer": "metric",
+      "data": { "eyebrow": "Credits consumed", "value": "1,307.4", "suffix": " cr", "trend": "+24.8%", "note": "vs prior period", "tone": "default" }
+    },
+    "projected_month": {
+      "renderer": "metric",
+      "data": { "eyebrow": "Projected month", "value": "1,941", "suffix": " cr", "trend": "81%", "note": "of 2,400 budget", "tone": "violet" }
+    },
+    "active_identities": {
+      "renderer": "metric",
+      "data": { "eyebrow": "Active identities", "value": "38", "suffix": "", "trend": "+6", "note": "employees & agents", "tone": "mint" }
+    },
+    "chart_menu": {
+      "renderer": "radio_group",
+      "data": [
+        { "chartId": "agent_bar_chart", "label": "Bar chart", "description": "Compare categories or groups side by side", "displayOrder": 1 },
+        { "chartId": "credit_burn", "label": "Line chart", "description": "Show trends over time or continuous data", "displayOrder": 2 },
+        { "chartId": "usage_scatter", "label": "Scatter plot", "description": "Show relationships between two numeric values", "displayOrder": 3 },
+        { "chartId": "service_pie_chart", "label": "Pie chart", "description": "Show proportions of a whole", "displayOrder": 4 },
+        { "chartId": "activity_heatmap", "label": "Heatmap", "description": "Show intensity across two dimensions", "displayOrder": 5 }
+      ]
+    },
+    "agent_bar_chart": {
+      "renderer": "bar_chart",
+      "data": [
+        { "label": "FINANCE_RECON_AGENT", "sublabel": "Finance Ops", "value": 286, "changePercent": 38, "kicker": "BAR CHART", "title": "Top autonomous consumers", "description": "Credits consumed by each agent during the selected period." },
+        { "label": "SUPPORT_SEARCH_AGENT", "sublabel": "Customer Care", "value": 219, "changePercent": 16, "kicker": "BAR CHART", "title": "Top autonomous consumers", "description": "Credits consumed by each agent during the selected period." },
+        { "label": "LEGAL_DOC_REVIEW", "sublabel": "Legal", "value": 164, "changePercent": 203, "kicker": "BAR CHART", "title": "Top autonomous consumers", "description": "Credits consumed by each agent during the selected period." },
+        { "label": "SALES_BRIEF_AGENT", "sublabel": "Revenue", "value": 122, "changePercent": -8, "kicker": "BAR CHART", "title": "Top autonomous consumers", "description": "Credits consumed by each agent during the selected period." },
+        { "label": "HR_POLICY_ASSIST", "sublabel": "People", "value": 83, "changePercent": 11, "kicker": "BAR CHART", "title": "Top autonomous consumers", "description": "Credits consumed by each agent during the selected period." }
+      ]
+    },
+    "credit_burn": {
+      "renderer": "line_chart",
+      "data": [
+        { "rangeLabel": "7D", "position": 0, "value": 42, "kicker": "LINE CHART", "title": "AI credit burn", "description": "Daily AI credit consumption across the selected reporting window." },
+        { "rangeLabel": "7D", "position": 1, "value": 54, "kicker": "LINE CHART", "title": "AI credit burn", "description": "Daily AI credit consumption across the selected reporting window." },
+        { "rangeLabel": "7D", "position": 2, "value": 49, "kicker": "LINE CHART", "title": "AI credit burn", "description": "Daily AI credit consumption across the selected reporting window." },
+        { "rangeLabel": "7D", "position": 3, "value": 73, "kicker": "LINE CHART", "title": "AI credit burn", "description": "Daily AI credit consumption across the selected reporting window." },
+        { "rangeLabel": "7D", "position": 4, "value": 68, "kicker": "LINE CHART", "title": "AI credit burn", "description": "Daily AI credit consumption across the selected reporting window." },
+        { "rangeLabel": "7D", "position": 5, "value": 96, "kicker": "LINE CHART", "title": "AI credit burn", "description": "Daily AI credit consumption across the selected reporting window." },
+        { "rangeLabel": "7D", "position": 6, "value": 112, "kicker": "LINE CHART", "title": "AI credit burn", "description": "Daily AI credit consumption across the selected reporting window." },
+        { "rangeLabel": "30D", "position": 0, "value": 28, "kicker": "LINE CHART", "title": "AI credit burn", "description": "Daily AI credit consumption across the selected reporting window." },
+        { "rangeLabel": "30D", "position": 1, "value": 39, "kicker": "LINE CHART", "title": "AI credit burn", "description": "Daily AI credit consumption across the selected reporting window." },
+        { "rangeLabel": "30D", "position": 2, "value": 44, "kicker": "LINE CHART", "title": "AI credit burn", "description": "Daily AI credit consumption across the selected reporting window." },
+        { "rangeLabel": "30D", "position": 3, "value": 61, "kicker": "LINE CHART", "title": "AI credit burn", "description": "Daily AI credit consumption across the selected reporting window." },
+        { "rangeLabel": "30D", "position": 4, "value": 75, "kicker": "LINE CHART", "title": "AI credit burn", "description": "Daily AI credit consumption across the selected reporting window." },
+        { "rangeLabel": "30D", "position": 5, "value": 86, "kicker": "LINE CHART", "title": "AI credit burn", "description": "Daily AI credit consumption across the selected reporting window." },
+        { "rangeLabel": "30D", "position": 6, "value": 98, "kicker": "LINE CHART", "title": "AI credit burn", "description": "Daily AI credit consumption across the selected reporting window." },
+        { "rangeLabel": "30D", "position": 7, "value": 115, "kicker": "LINE CHART", "title": "AI credit burn", "description": "Daily AI credit consumption across the selected reporting window." },
+        { "rangeLabel": "30D", "position": 8, "value": 139, "kicker": "LINE CHART", "title": "AI credit burn", "description": "Daily AI credit consumption across the selected reporting window." },
+        { "rangeLabel": "30D", "position": 9, "value": 156, "kicker": "LINE CHART", "title": "AI credit burn", "description": "Daily AI credit consumption across the selected reporting window." },
+        { "rangeLabel": "90D", "position": 0, "value": 19, "kicker": "LINE CHART", "title": "AI credit burn", "description": "Daily AI credit consumption across the selected reporting window." },
+        { "rangeLabel": "90D", "position": 1, "value": 30, "kicker": "LINE CHART", "title": "AI credit burn", "description": "Daily AI credit consumption across the selected reporting window." },
+        { "rangeLabel": "90D", "position": 2, "value": 37, "kicker": "LINE CHART", "title": "AI credit burn", "description": "Daily AI credit consumption across the selected reporting window." },
+        { "rangeLabel": "90D", "position": 3, "value": 52, "kicker": "LINE CHART", "title": "AI credit burn", "description": "Daily AI credit consumption across the selected reporting window." },
+        { "rangeLabel": "90D", "position": 4, "value": 60, "kicker": "LINE CHART", "title": "AI credit burn", "description": "Daily AI credit consumption across the selected reporting window." },
+        { "rangeLabel": "90D", "position": 5, "value": 74, "kicker": "LINE CHART", "title": "AI credit burn", "description": "Daily AI credit consumption across the selected reporting window." },
+        { "rangeLabel": "90D", "position": 6, "value": 88, "kicker": "LINE CHART", "title": "AI credit burn", "description": "Daily AI credit consumption across the selected reporting window." },
+        { "rangeLabel": "90D", "position": 7, "value": 101, "kicker": "LINE CHART", "title": "AI credit burn", "description": "Daily AI credit consumption across the selected reporting window." },
+        { "rangeLabel": "90D", "position": 8, "value": 118, "kicker": "LINE CHART", "title": "AI credit burn", "description": "Daily AI credit consumption across the selected reporting window." },
+        { "rangeLabel": "90D", "position": 9, "value": 139, "kicker": "LINE CHART", "title": "AI credit burn", "description": "Daily AI credit consumption across the selected reporting window." }
+      ]
+    },
+    "usage_scatter": {
+      "renderer": "scatter_plot",
+      "data": [
+        { "label": "Cortex Analyst", "xValue": 840, "yValue": 536, "size": 38, "color": "#6757d9", "kicker": "SCATTER PLOT", "title": "Volume versus credit cost", "description": "Each bubble compares request volume, credit usage and growth." },
+        { "label": "Cortex Search", "xValue": 1210, "yValue": 353, "size": 24, "color": "#2f8f83", "kicker": "SCATTER PLOT", "title": "Volume versus credit cost", "description": "Each bubble compares request volume, credit usage and growth." },
+        { "label": "Document AI", "xValue": 310, "yValue": 248, "size": 52, "color": "#ec6a4c", "kicker": "SCATTER PLOT", "title": "Volume versus credit cost", "description": "Each bubble compares request volume, credit usage and growth." },
+        { "label": "Snowflake Copilot", "xValue": 680, "yValue": 170, "size": 18, "color": "#e4b94f", "kicker": "SCATTER PLOT", "title": "Volume versus credit cost", "description": "Each bubble compares request volume, credit usage and growth." },
+        { "label": "AI Functions", "xValue": 460, "yValue": 132, "size": 14, "color": "#65748f", "kicker": "SCATTER PLOT", "title": "Volume versus credit cost", "description": "Each bubble compares request volume, credit usage and growth." }
+      ]
+    },
+    "service_pie_chart": {
+      "renderer": "pie_chart",
+      "data": [
+        { "label": "Cortex Analyst", "value": 41, "credits": 536, "color": "#6757d9", "kicker": "PIE CHART", "title": "Where credits go", "description": "Share of total AI credits consumed by service." },
+        { "label": "Cortex Search", "value": 27, "credits": 353, "color": "#2f8f83", "kicker": "PIE CHART", "title": "Where credits go", "description": "Share of total AI credits consumed by service." },
+        { "label": "Document AI", "value": 19, "credits": 248, "color": "#ec6a4c", "kicker": "PIE CHART", "title": "Where credits go", "description": "Share of total AI credits consumed by service." },
+        { "label": "Snowflake Copilot", "value": 13, "credits": 170, "color": "#e4b94f", "kicker": "PIE CHART", "title": "Where credits go", "description": "Share of total AI credits consumed by service." }
+      ]
+    },
+    "activity_heatmap": {
+      "renderer": "heatmap",
+      "data": [
+        { "rowLabel": "Mon", "columnLabel": "00:00", "value": 8, "kicker": "HEATMAP", "title": "When AI workloads run", "description": "Credit intensity by weekday and four-hour window." },
+        { "rowLabel": "Mon", "columnLabel": "04:00", "value": 12, "kicker": "HEATMAP", "title": "When AI workloads run", "description": "Credit intensity by weekday and four-hour window." },
+        { "rowLabel": "Mon", "columnLabel": "08:00", "value": 32, "kicker": "HEATMAP", "title": "When AI workloads run", "description": "Credit intensity by weekday and four-hour window." },
+        { "rowLabel": "Mon", "columnLabel": "12:00", "value": 67, "kicker": "HEATMAP", "title": "When AI workloads run", "description": "Credit intensity by weekday and four-hour window." },
+        { "rowLabel": "Mon", "columnLabel": "16:00", "value": 81, "kicker": "HEATMAP", "title": "When AI workloads run", "description": "Credit intensity by weekday and four-hour window." },
+        { "rowLabel": "Mon", "columnLabel": "20:00", "value": 24, "kicker": "HEATMAP", "title": "When AI workloads run", "description": "Credit intensity by weekday and four-hour window." },
+        { "rowLabel": "Tue", "columnLabel": "00:00", "value": 11, "kicker": "HEATMAP", "title": "When AI workloads run", "description": "Credit intensity by weekday and four-hour window." },
+        { "rowLabel": "Tue", "columnLabel": "04:00", "value": 18, "kicker": "HEATMAP", "title": "When AI workloads run", "description": "Credit intensity by weekday and four-hour window." },
+        { "rowLabel": "Tue", "columnLabel": "08:00", "value": 48, "kicker": "HEATMAP", "title": "When AI workloads run", "description": "Credit intensity by weekday and four-hour window." },
+        { "rowLabel": "Tue", "columnLabel": "12:00", "value": 76, "kicker": "HEATMAP", "title": "When AI workloads run", "description": "Credit intensity by weekday and four-hour window." },
+        { "rowLabel": "Tue", "columnLabel": "16:00", "value": 93, "kicker": "HEATMAP", "title": "When AI workloads run", "description": "Credit intensity by weekday and four-hour window." },
+        { "rowLabel": "Tue", "columnLabel": "20:00", "value": 38, "kicker": "HEATMAP", "title": "When AI workloads run", "description": "Credit intensity by weekday and four-hour window." },
+        { "rowLabel": "Wed", "columnLabel": "00:00", "value": 7, "kicker": "HEATMAP", "title": "When AI workloads run", "description": "Credit intensity by weekday and four-hour window." },
+        { "rowLabel": "Wed", "columnLabel": "04:00", "value": 15, "kicker": "HEATMAP", "title": "When AI workloads run", "description": "Credit intensity by weekday and four-hour window." },
+        { "rowLabel": "Wed", "columnLabel": "08:00", "value": 42, "kicker": "HEATMAP", "title": "When AI workloads run", "description": "Credit intensity by weekday and four-hour window." },
+        { "rowLabel": "Wed", "columnLabel": "12:00", "value": 58, "kicker": "HEATMAP", "title": "When AI workloads run", "description": "Credit intensity by weekday and four-hour window." },
+        { "rowLabel": "Wed", "columnLabel": "16:00", "value": 88, "kicker": "HEATMAP", "title": "When AI workloads run", "description": "Credit intensity by weekday and four-hour window." },
+        { "rowLabel": "Wed", "columnLabel": "20:00", "value": 31, "kicker": "HEATMAP", "title": "When AI workloads run", "description": "Credit intensity by weekday and four-hour window." },
+        { "rowLabel": "Thu", "columnLabel": "00:00", "value": 14, "kicker": "HEATMAP", "title": "When AI workloads run", "description": "Credit intensity by weekday and four-hour window." },
+        { "rowLabel": "Thu", "columnLabel": "04:00", "value": 21, "kicker": "HEATMAP", "title": "When AI workloads run", "description": "Credit intensity by weekday and four-hour window." },
+        { "rowLabel": "Thu", "columnLabel": "08:00", "value": 55, "kicker": "HEATMAP", "title": "When AI workloads run", "description": "Credit intensity by weekday and four-hour window." },
+        { "rowLabel": "Thu", "columnLabel": "12:00", "value": 83, "kicker": "HEATMAP", "title": "When AI workloads run", "description": "Credit intensity by weekday and four-hour window." },
+        { "rowLabel": "Thu", "columnLabel": "16:00", "value": 97, "kicker": "HEATMAP", "title": "When AI workloads run", "description": "Credit intensity by weekday and four-hour window." },
+        { "rowLabel": "Thu", "columnLabel": "20:00", "value": 44, "kicker": "HEATMAP", "title": "When AI workloads run", "description": "Credit intensity by weekday and four-hour window." },
+        { "rowLabel": "Fri", "columnLabel": "00:00", "value": 9, "kicker": "HEATMAP", "title": "When AI workloads run", "description": "Credit intensity by weekday and four-hour window." },
+        { "rowLabel": "Fri", "columnLabel": "04:00", "value": 13, "kicker": "HEATMAP", "title": "When AI workloads run", "description": "Credit intensity by weekday and four-hour window." },
+        { "rowLabel": "Fri", "columnLabel": "08:00", "value": 37, "kicker": "HEATMAP", "title": "When AI workloads run", "description": "Credit intensity by weekday and four-hour window." },
+        { "rowLabel": "Fri", "columnLabel": "12:00", "value": 61, "kicker": "HEATMAP", "title": "When AI workloads run", "description": "Credit intensity by weekday and four-hour window." },
+        { "rowLabel": "Fri", "columnLabel": "16:00", "value": 72, "kicker": "HEATMAP", "title": "When AI workloads run", "description": "Credit intensity by weekday and four-hour window." },
+        { "rowLabel": "Fri", "columnLabel": "20:00", "value": 29, "kicker": "HEATMAP", "title": "When AI workloads run", "description": "Credit intensity by weekday and four-hour window." }
+      ]
+    },
+    "dashboard_footer": {
+      "renderer": "footer",
+      "data": { "leftText": "Snowflake AI Credit Control · SQL-driven", "rightText": "Local: Snowflake CLI · Deployed: active Snowflake session" }
+    }
+  }
+}

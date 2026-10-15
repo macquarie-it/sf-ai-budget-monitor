@@ -1,6 +1,6 @@
 # Snowflake AI Credit Control
 
-React dashboard for Snowflake DBAs to monitor AI credit usage. Its data and visible copy are controlled by a documented SQL component registry, so a DBA can maintain the dashboard without editing React.
+React dashboard to monitor AI credit usage. Its data and visible copy are controlled by a documented SQL component registry, so a DBA can maintain the dashboard without editing React.
 
 ## SQL controls the dashboard
 
